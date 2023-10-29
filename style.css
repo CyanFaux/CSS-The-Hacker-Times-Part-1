@@ -19,10 +19,21 @@ body {
 h5 {
   color: #dd3232;
 }
-.nav {
+a {
   color: #777;
-  list-style-type: none;
+  text-decoration: none;
+}
+li {
   display: inline-block;
+  padding: 5px;
+}
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-left: 36px;
+  font-size: 15px;
 }
 h1 {
   text-align: center;
@@ -31,12 +42,19 @@ h1 {
 h2 {
   font-family: Roboto Slab;
 }
-#p1 {
+main {
   text-align: justify;
-  width: 37em;
 }
 .p2 {
-text-align: justify;
-width: 18em;
-padding: 0.5em;
+  text-align: justify;
+  width: 18em;
+  padding: 0.5em;
+}
+section {
+  display: inline-block;
+  width: 340px;
+
+}
+#laptop {
+    width: 699px;
 }
