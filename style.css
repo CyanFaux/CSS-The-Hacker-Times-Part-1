@@ -50,12 +50,12 @@ main {
   width: 18em;
   padding: 0.5em;
 }
-section {
+.more-articles section {
   display: inline-block;
-  width: 340px;
-
+  width: 44%;
+  margin: 1em;
 }
 #laptop {
-    width: 699px;
-    color: #1234;
+  width: 100%;
+  color: #1234;
 }
