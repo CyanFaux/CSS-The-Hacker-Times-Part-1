@@ -16,46 +16,46 @@ body {
   box-shadow: 5px 5px 10px 5px (0, 0, 0, 0.5);
   padding: 1em;
 }
-h5 {
-  color: #dd3232;
+h1 {
+  text-align: center;
+  font-family: Abril Fatface;
 }
-a {
+nav a {
   color: #777;
   text-decoration: none;
 }
 nav li {
   display: inline;
-  padding: 5px;
+  padding: 0px 5px 0px 5px;
 }
-.navigation {
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
   list-style-type: none;
-  margin: 0 auto;
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
-  padding-left: 36px;
-  font-size: 15px;
 }
-h1 {
-  text-align: center;
-  font-family: Abril Fatface;
+.navigation {
+  padding-left: 0;
+  margin: 0;
 }
 h2 {
   font-family: Roboto Slab;
 }
+h5 {
+  color: #dd3232;
+}
+#laptop {
+  width: 100%;
+}
 main {
   text-align: justify;
-}
-.p2 {
-  text-align: justify;
-  width: 18em;
-  padding: 0.5em;
 }
 .more-articles section {
   display: inline-block;
   width: 44%;
-  margin: 1em;
-}
-#laptop {
-  width: 100%;
-  color: #1234;
+  margin: 1em 1em 1em 1.5em;
+  text-align: justify;
 }
